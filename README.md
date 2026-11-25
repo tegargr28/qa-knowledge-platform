@@ -16,6 +16,19 @@ connectors, private deployment) are designed in docs/DESIGN.md but not
 built yet. I am not claiming any company uses this. The plan is personal
 first, then usable by a small team, then enterprise requirements.
 
+## Live demo
+
+The app runs live on Streamlit Community Cloud, packaged from the
+separate repo tegargr28/qa-knowledge-platform-streamlit (the same
+pipeline, with a Streamlit chat page instead of the FastAPI one):
+
+https://app-knowledge-platform-app-cvshkjtbuktathxqkeznmc.streamlit.app/
+
+The free app sleeps when nobody visits, so the first open can take
+about a minute to wake up. I tested the live app after deploying: the
+Chaligula over-stock question is answered with the BUG-001 source, and
+the trap question about a ParaBank CEO is refused.
+
 ## Current status: Tahap 3, refusal, full answer evaluation and a chat page
 
 Done and verified by running it:
